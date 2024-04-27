@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPETIZERS</title>
+    <style>
+      
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; 
+    color: #fff; 
+}
+.nav{
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    background-color: rgb(112, 76, 53);
+    background-size: cover;
+    padding: 10px 20px;
+}
+
+button {
+    background-color: #1e1d2d;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #1e1d2d;
+}
+.b{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    background-color: rgb(112, 76, 53);
+    color: rgb(207, 170, 170);
+    
+}
+.search2{  position: fixed;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 600px; top: 7px; width: 193px; height: 26px;
+}
+.s{
+    position: fixed;
+    right: 303px;
+    top: 20px;
+    font-size: 19px;
+    background-color: rgb(112, 76, 53);
+    color: rgb(207, 170, 170);
+
+}
+
+header {
+    background-color: #e97ba6;
+    padding: 20px;
+    text-align: center;
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    
+}
+
+table {
+    width: 80%; 
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #fff; 
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    font-size: 200%;
+}
+
+th {
+    background-color: #73c8e0; 
+    color: #333; 
+}
+
+td {
+
+    background-color: #000000; 
+    color: #ffffff; 
+    border-bottom: 5px solid #e97ba6; 
+}
+
+tbody tr:last-child td {
+
+    border-bottom-width: 20px;
+   border-bottom-color: #73c8e0;
+}
+
+tbody tr:hover td {
+    background-color: #1a0101;
+}
+td img {
+    max-width: 150px;
+    height: auto;
+    background-color: #000;
+}
+
+
+.details {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.menu-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-image {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.menu-details h2 {
+    margin: 0 0 10px;
+    color: #fff; 
+}
+
+.menu-details p {
+    margin: 0;
+    color: #ccc; 
+}
+.selected {
+            background-color: #e97ba6; 
+        }
+
+        .menu-image {
+            transition: all 0.3s ease; 
+        }
+
+        .menu-image:hover {
+            transform: scale(1.1); 
+            filter: grayscale(50%); 
+        }
+
+        .menu-item:hover {
+            transform: translateY(-5px); 
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+        }
+        footer {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 1px;
+    background-color: #1e1d2d;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    height: 57px;
+}
+    
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <nav> <b><a href="index.html"><button class="b"><b>HOME</b></button></a> </b> </nav> 
+        <nav> <b><a href="account.html"><button class="b"><b>ACCOUNT</b></button></a> </b></nav>
+        <nav> <b><a href="project.html"><button class="b"><b>NEWS</b></button></a> </b></nav>
+        <nav><b>
+            <form class="search2" method="get" action="default.html" />
+            <input class="search2" type="text" name="serach_bar"       
+            value="" />
+        <b class="s">SEARCH</b></nav>
+      </div>
+    <header>
+        <h1>APPETIZERS Menu</h1>
+    </header>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th class="image"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mac & Gravy</td>
+                <td>60</td>
+                <td><img src="image/IMG 001.png" alt="Image 1"></td>
+            </tr>
+            <tr>
+                <td>Mozzarella Bites</td>
+                <td>58</td>
+                <td><img src="image/IMG 002.png" alt="Image 2"></td>
+            </tr>
+            <tr>
+                <td>Jalapeño Poppers</td>
+                <td>35</td>
+                <td><img src="image/IMG 003.png" alt="Image 3"></td>
+            </tr>
+            <tr>
+                <td>Fried Mac And Cheese</td>
+                <td>90</td>
+                <td><img src="image/IMG 004.png" alt="Image 4"></td>
+            </tr>
+            <tr>
+                <td>Mini Corndog</td>
+                <td>100</td>
+                <td><img src="image/IMG 005.png" alt="Image 5"></td>
+            </tr>
+        
+        </tbody>
+    </table>
+    <header>
+        <h1>Details</h1>
+    </header>
+    <div class="details">
+       
+        <ul class="menu">
+            <li class="menu-item">
+                <img src="image/IMG 001.png" alt="Mac & Gravy" class="menu-image">
+                <div class="menu-details">
+                    <h2>Mac & Gravy /ماك & جريفي</h2>
+                    <p>Pasta, Mushroom Gravy Sauce <br>مكرونه , مشروم جريفي صوص </p>
+                </div>
+            </li>
+            <li class="menu-item">
+                <img src="image/IMG 002.png" alt="Mozzarella Bites" class="menu-image">
+                <div class="menu-details">
+                    <h2>Mozzarella Bites / موتزاريلا بايتس</h2>
+                    <p>With Marinara Sauce <br> مع صوص المارينارا</p>
+                </div>
+            </li>
+            <li class="menu-item">
+                <img src="image/IMG 003.png" alt="Fish Taco" class="menu-image">
+                <div class="menu-details">
+                    <h2>Jalapeño Poppers</h2>
+                    <p>With Ranch Sauce <br>مع صوص الرانش </p>
+                </div>
+            </li>
+            <li class="menu-item">
+                <img src="image/IMG 004.png" alt="Vegetable Taco" class="menu-image">
+                <div class="menu-details">
+                    <h2>Fried Mac And Cheese</h2>
+                    <p>With Marinara Sauce<br>مع صوص الرانش </p>
+                </div>
+            </li>
+            <li class="menu-item">
+                <img src="image/IMG 005.png" alt="Spicy Cabbage Taco" class="menu-image">
+                <div class="menu-details">
+                    <h2>Mini Corndog</h2>
+                    <p>With Honey Mustard Sauce<br>مع صوص الهني مسترد</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    </div>
+    <script>
+   
+        document.addEventListener("DOMContentLoaded", function() {
+       
+            var menuItems = document.querySelectorAll(".menu-item");
+
+      
+            menuItems.forEach(function(item) {
+                item.addEventListener("mouseenter", function() {
+                    this.classList.add("selected");
+                });
+                item.addEventListener("mouseleave", function() {
+                    this.classList.remove("selected");
+                });
+            });
+        });
+    </script>
+     <footer>
+       
+        
+        <div class="container">
+            <p>&copy; 2024 pablo & abdo. BY : ABDELRAHMAN BADAWI.</p>
+        </div>
+    
+    
+</footer>
+</body>
+
+</html>
