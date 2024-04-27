@@ -1,0 +1,148 @@
+body{
+    background-color: #1e1d2d;
+}
+.nav{
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    background-color: rgb(112, 76, 53);
+    background-size: cover;
+    padding: 10px 20px;
+}
+button {
+    background-color: #1e1d2d;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #1e1d2d;
+}
+.b{ font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    background-color: rgb(112, 76, 53);
+    color: rgb(207, 170, 170);  
+}
+.search2{  position: fixed;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 600px; top: 7px; width: 193px; height: 26px;
+}
+.s{
+    position: fixed;
+    right: 320px;
+    top: 27px;
+    font-size: 19px;
+    background-color: rgb(112, 76, 53);
+    color: rgb(207, 170, 170);
+}
+.video1{
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+}
+
+
+.img1{
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+}
+
+.img2{
+    width: 100%;
+    display:inline-block;
+}
+
+.img3{
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+}
+
+.p1{
+    display: inline-block; 
+   position: absolute;
+    top: 40px;
+    left: 320px;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+.p2{
+    display: inline-block;
+    position: absolute; 
+    top: 460px;
+    left: 320px;
+    letter-spacing: 1px;
+    line-height: 40px;
+} 
+
+.p3{
+    display: inline-block;
+    position: absolute; 
+    top: 885px;
+    left: 320px;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+.p4{
+    display: inline-block;
+    position: absolute; 
+    top: 1301px;
+    left: 320px;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+
+
+
+/*.div1,
+.div2,
+.div3{
+    background-color: rgb(167, 176, 184);
+}*/
+
+.p1,
+.p2,
+.p3,
+.p4{
+    font-size: 30px;
+    color: white;
+}
+/*------------------------------------------------------------------------------------------------------------------------*/
+.img1:hover,
+.img3:hover,
+.video1:hover{
+    width: 310px;
+    height: 410px;
+}
+
+.img1,
+.img3,
+.video1{
+    transition: all 0.5s;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+body{
+    background-image: url(../IT/image/background.jpg);
+}
+
+footer { font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 1px;
+    background-color: #1e1d2d;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 21px;
+}

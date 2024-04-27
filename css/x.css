@@ -1,0 +1,139 @@
+body{
+    background-color: #1e1d2d;
+    color: aliceblue;
+}
+
+header{
+    padding: 60px;
+    text-align: center;
+    background-image: url(https://danangfantasticity.com/wp-content/uploads/2022/11/A-Momentous-New-Year-Day-thang-muoi-hai-ruc-ro-tai-shilla-monogram-quangnam-danang.jpg);
+    color: whitesmoke;
+    font-size: 30px;
+}
+span{
+    color: rgb(181, 181, 208);
+}
+.nav{
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    background-color: rgb(112, 76, 53);
+    background-size: cover;
+    padding: 10px 20px;
+}
+button {
+    background-color: #1e1d2d;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #1e1d2d;
+}
+.b{ font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    background-color: rgb(112, 76, 53);
+    color: rgb(207, 170, 170);
+    
+}
+.search2{  position: fixed;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 600px; top: 7px; width: 193px; height: 26px;
+}
+.s{
+    position: fixed;
+    right: 320px;
+    top: 27px;
+    font-size: 19px;
+    background-color: rgb(112, 76, 53);
+    color: rgb(207, 170, 170);
+
+}
+textarea{
+    font-style: italic;
+    color: white;
+    font-size: 25px;
+    background-color: rgb(17, 6, 39);
+}
+h4{
+    color: rgb(207, 184, 184);
+}
+p{
+    font-size: 24px;
+}
+ol{
+    position: absolute;
+    top: 1120px;
+    right: 200px;
+    text-decoration: underline;
+    color: rgb(247, 134, 204);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+}
+a { 
+    color: rgb(141, 202, 231);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+ .first {
+  position: absolute;
+  left: 1160px;
+  top: 1162px;
+}
+video {
+    border-radius: 30%;
+}
+
+.res{
+    border: 15px;
+    border-style: dashed;
+    border-color: aliceblue;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: auto;
+}
+pre {
+    font-size: 20px;
+    color: bisque;
+    font-style: oblique;
+}
+.sec {
+    position: absolute;
+    right: 890px;
+    border: 15px;
+    border-style: dashed;
+    border-color: aliceblue;
+    margin-top: 30px;
+    width: 300px;
+    height: auto;
+}
+.bf {
+  position: absolute;
+  top: 1560px;
+  right: 930px;
+}
+
+.x{
+    color: rgb(247, 134, 204);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 1px;
+    background-color: #1e1d2d;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    height: 57px;
+}
