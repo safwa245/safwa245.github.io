@@ -39,9 +39,9 @@ button:hover {
     left: 600px; top: 7px; width: 193px; height: 26px;
 }
 .s{
-    position: fixed;
-    right: 320px;
-    top: 27px;
+    position: absolute;
+    right: -390px;
+    top: 14px;
     font-size: 19px;
     background-color: rgb(112, 76, 53);
     color: rgb(207, 170, 170);
@@ -72,7 +72,7 @@ p{
 }
 ol{
     position: absolute;
-    top: 1120px;
+    top: 1260px;
     right: 200px;
     text-decoration: underline;
     color: rgb(247, 134, 204);
@@ -86,8 +86,8 @@ a {
 }
  .first {
   position: absolute;
-  left: 1160px;
-  top: 1162px;
+  left: 1100px;
+  top: 1299px;
 }
 video {
     border-radius: 30%;

@@ -1,65 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang="ar">
 <head>
-    <title>Menu - Taco Section | Pablo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/taco.css">
+    <meta charset="UTF-8">
+    <title>قائمة طعام مطعم Pablo</title>
+    <!-- ربط ملف CSS -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body style="background-color:#1e1d2d ;">
     <div class="nav">
-        <nav> <b>  <a href="index.html"><button class="b"><b>HOME</b></button></a> </b> </nav> 
+        <nav> <b><a href="index.html"><button class="b"><b>HOME</b></button></a> </b> </nav> 
         <nav> <b><a href="account.html"><button class="b"><b>ACCOUNT</b></button></a> </b></nav>
-        <nav> <b><a href="IT/project.html"><button class="b"><b>NEWS</b></button></a> </b></nav>
+        <nav> <b><a href="project.html"><button class="b"><b>NEWS</b></button></a> </b></nav>
         <nav><b>
             <form class="search2" method="get" action="default.html" />
             <input class="search2" type="text" name="serach_bar"       
             value="" />
         <b class="s">SEARCH</b></nav>
       </div>
-    <div class="container">
-        <h1>Menu - Taco Section | Pablo</h1>
-        <ul class="menu">
-            <li class="menu-item">
-                <img src="image/beaf.jpg" alt="Grilled Beef Taco" class="menu-image">
-                <div class="menu-details">
-                    <h2>Grilled Beef Taco / تاكو اللحم المشوي</h2>
-                    <p>Grilled beef taco with onions, cilantro, and sauce. Price: EGP 155 / تاكو محشو باللحم المشوي، البصل، الكزبرة، والصلصة. السعر: 155 جنيه</p>
-                </div>
-            </li>
-            <li class="menu-item">
-                <img src="image/spicy ch.jpg" alt="Spicy Chicken Taco" class="menu-image">
-                <div class="menu-details">
-                    <h2>Spicy Chicken Taco / تاكو الدجاج المتبل</h2>
-                    <p>Spicy chicken taco with peppers, tomatoes, and cheese. Price: EGP 140 / تاكو محشو بالدجاج المتبل، الفلفل، الطماطم، والجبن. السعر: 140 جنيه</p>
-                </div>
-            </li>
-            <li class="menu-item">
-                <img src="image/fish.jpg" alt="Fish Taco" class="menu-image">
-                <div class="menu-details">
-                    <h2>Fish Taco / تاكو السمك</h2>
-                    <p>Grilled fish taco with cabbage and guacamole. Price: EGP 185 / تاكو محشو بسمك مشوي، الكرنب، والجواكامولي. السعر: 185 جنيه</p>
-                </div>
-            </li>
-            <li class="menu-item">
-                <img src="image/veg.jpg" alt="Vegetable Taco" class="menu-image">
-                <div class="menu-details">
-                    <h2>Vegetable Taco / تاكو الخضروات</h2>
-                    <p>Grilled vegetable taco with cheese and green sauce. Price: EGP 120 / تاكو محشو بالخضروات المشوية، الجبن، والصلصة الخضراء. السعر: 120 جنيه</p>
-                </div>
-            </li>
-            <li class="menu-item">
-                <img src="image/cabbage.jpg" alt="Spicy Cabbage Taco" class="menu-image">
-                <div class="menu-details">
-                    <h2>Spicy Cabbage Taco / تاكو الكرنب الحار</h2>
-                    <p>Spicy cabbage taco with carrots and cilantro. Price: EGP 105 / تاكو محشو بكرنب حار، الجزر، والكزبرة. السعر: 105 جنيه</p>
-                </div>
-            </li>
-        </ul>
-    </div>
+    <h1>قائمة طعام مطعم Pablo</h1>
+
+    <!-- صورة -->
+    <img src="image/bg2.jpg" alt="مطعم Pablo" width="300">
+
+    <!-- روابط -->
+    <nav>
+        <a href="#starters">المقبلات</a> | 
+        <a href="#main-dishes">الأطباق الرئيسية</a> | 
+        <a href="#desserts">الحلويات</a> | 
+        <a href="#drinks">المشروبات</a>
+        <span> | </span>
+        <a href="index_en.html">English</a> <!-- رابط الصفحة الإنجليزية -->
+    </nav>
+
+    <!-- قوائم -->
+    <h2 id="starters">المقبلات</h2>
+    <ul>
+        <li>سلطة الخضار - 15 جنيه مصري</li>
+        <li>الحمص - 20 جنيه مصري</li>
+        <li>المقبلات المتنوعة - 25 جنيه مصري</li>
+    </ul>
+
+    <h2 id="main-dishes">الأطباق الرئيسية</h2>
+    <ol>
+        <li>تاكو اللحم - 50 جنيه مصري</li>
+        <li>تاكو الدجاج - 45 جنيه مصري</li>
+        <li>تاكو الخضار - 40 جنيه مصري</li>
+    </ol>
+
+    <!-- جدول -->
+    <h2 id="desserts">الحلويات</h2>
+    <table>
+        <tr>
+            <th>الحلوى</th>
+            <th>السعر (جنيه مصري)</th>
+        </tr>
+        <tr>
+            <td>تشورو</td>
+            <td>10 جنيه</td>
+        </tr>
+        <tr>
+            <td>أيس كريم الفانيليا</td>
+            <td>8 جنيه</td>
+        </tr>
+    </table>
+
+    <!-- صوت وفيديو -->
+    <h2 id="drinks">المشروبات</h2>
+    <audio controls>
+        <source src="sound/drink-sound.mp3" type="audio/mpeg">
+        صوت غير متاح
+    </audio>
+    <video controls width="300">
+        <source src="video/WhatsApp Video 2024-04-29 at 20.44.29_a1702cfe.mp4" type="video/mp4">
+        فيديو غير متاح
+    </video>
+
+    <!-- نموذج -->
+    <h2>اتصل بنا</h2>
+    <form id="contact-form">
+        <label for="name">الاسم:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">البريد الإلكتروني:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">الرسالة:</label>
+        <textarea id="message" name="message" required></textarea><br><br>
+        <button type="submit">إرسال</button>
+    </form>
+
+    <!-- وظيفة البحث -->
+    <h2>بحث في القائمة</h2>
+    <input type="search" placeholder="ابحث في القائمة...">
     <footer>
         <div>
-            <p class="c">&copy; 2024 pablo & abdo. BY : Mahmmoud Saeed.</p>
+            <p class="c">&copy; 2024 pablo & abdo. BY : Mahmoud Saeed.</p>
         </div>
-    </footer>
+</footer>
+    <!-- ربط ملف JavaScript -->
+    <script src="js/Taco.js"></script>
 </body>
 </html>

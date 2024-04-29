@@ -1,0 +1,189 @@
+/* تنسيق عام للصفحة */
+body { background-color: #1e1d2d;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5; /* لون الخلفية */
+    line-height: 1.6; /* ارتفاع الخط */
+}
+
+
+.nav{
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    background-color: rgb(112, 76, 53);
+    background-size: cover;
+    padding: 10px 20px;
+}
+
+button {
+    background-color: #1e1d2d;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #1e1d2d;
+}
+.b{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    background-color: rgb(112, 76, 53);
+    color: rgb(207, 170, 170);
+    
+}
+.search2{  position: fixed;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 600px; top: 8px; width: 193px; height: 12px;
+}
+.s{
+    position: absolute;
+    right: -390px;
+    top: 7px;
+    font-size: 19px;
+    background-color: rgb(112, 76, 53);
+    color: rgb(207, 170, 170);
+
+}
+
+
+/* تنسيق العنوان الرئيسي */
+h1 { color: antiquewhite;
+    text-align: center;
+    color: #007bff;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* تنسيق الروابط في التنقل */
+nav a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* تنسيق الصور */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* تنسيق القوائم */
+ul, ol { color: #ccc;
+    margin: 10px 0;
+    padding-left: 20px; /* مسافة بادئة للقوائم */
+}
+
+ul {
+    list-style-type: disc; /* نقاط للعلامات في القائمة */
+}
+
+ol {
+    list-style-type: decimal; /* أرقام للعلامات في القائمة */
+}
+
+
+/* تنسيق عناصر القائمة */
+li {
+    margin-bottom: 5px; /* مسافة أسفل العناصر */
+}
+h2{
+    color: rgb(244, 218, 185);
+}
+/* تنسيق الجدول */
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+table th, table td { color: #81e0f7;
+    padding: 10px;
+    border: 1px solid #ccc; /* حدود خلايا الجدول */
+}
+
+table th {
+    background-color: #007bff;
+    color: #fff;
+    text-align: left;
+}
+
+/* تنسيق العناصر الصوتية والمرئية */
+audio, video {
+    display: block;
+    margin: 10px auto;
+    width: 100%; /* عرض العناصر بالكامل */
+}
+
+/* تنسيق النموذج */
+label{
+    color: rgb(52, 135, 135);
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* تنسيق وظيفة البحث */
+input[type="search"] {
+    width: 80%;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+footer {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 1px;
+    background-color: #1e1d2d;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    height:30px;
+}
+.c{
+    position: absolute;
+    bottom: -18px;
+    left: 35%;
+}
