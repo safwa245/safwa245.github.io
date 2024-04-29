@@ -1,0 +1,114 @@
+.nav{
+    display: flex;
+    position: sticky;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    background-color: rgb(112, 76, 53);
+    background-size: cover;
+    padding: 10px 20px;
+    height: 45px;
+  }
+  button {
+    background-color: #1e1d2d;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  button:hover {
+    background-color: #1e1d2d;
+  }
+  .b{ font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    background-color: rgb(112, 76, 53);
+    color: rgb(207, 170, 170);
+    
+  }
+  .search2{  position: fixed;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 600px; top: 8px; width: 193px; height: 26px;
+  }
+  .s{
+    position: fixed;
+    right: 340px;
+    top: 29px;
+    font-size: 20px;
+    background-color: rgb(112, 76, 53);
+    color: rgb(207, 170, 170);
+  
+  }
+body{
+    background-color:#1e1d2d ;
+}
+
+#about .title,
+#ofers.titLe{
+    text-align: center;
+    margin: 4rem;
+}
+#about h2,
+#offers h2{ 
+    font-size: 40pX;
+    margin-bottom: 20px;
+}
+#about h2{
+color: #7b7ba3;
+}
+/*OFFERS START */
+#Offers{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+#offers h2{
+    color: #e4b95b;
+}
+#offers.title P{
+    color: #f7f1f1;
+    font-weight: 500;
+}
+#offers .offers-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+#offers .offers-items img{
+    width: 200px;
+}
+#offers .offers-items h3{ color: rgb(144, 194, 177);
+    font-size: 34pX;
+    margin: 15px 0;
+}
+#offers .offers-items P{
+    font-size: 25px;
+    padding: 0 20px;
+    font-weight: 300;
+    margin-bottom: 15pX;
+}
+#offers.offers-items span{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.p{ font-size: 14px;
+    color: bisque;
+}
+footer {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 1px;
+    background-color: #1e1d2d;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    height: 57px;
+  }
