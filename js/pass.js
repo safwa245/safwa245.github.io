@@ -22,3 +22,9 @@ function func(event){
      localStorage.setItem('pass',password);
      window.location.href = "./index.html";
 }
+function funch(event){
+     event.preventDefault();
+     var password =document.getElementById("pass").value;
+     localStorage.setItem('pass',password);
+     window.location.href = "./index.html";
+}
