@@ -120,3 +120,24 @@ body {
     text-decoration: underline;
     color: #fff;
 }
+footer {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 1px;
+    background-color: #1e1d2d;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    height: 57px;
+}footer {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 1px;
+    background-color: #1e1d2d;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    height: 57px;
+}
