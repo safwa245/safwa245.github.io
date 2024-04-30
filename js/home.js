@@ -1,4 +1,4 @@
-
+alert('PABLO&عبده website')
 // Check browser support
 if (typeof(Storage) !== "undefined") {
   // Store
