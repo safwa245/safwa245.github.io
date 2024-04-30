@@ -5,9 +5,11 @@
         <meta name="descriotion" content="A restuarant for western and estern food">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/x.css">
-        
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
-    <body onload="checkCookie()">
+    <body>
+        <div id="result"></div>
           <div class="nav">
             <nav> <b><a href="index.html"><button class="b"><b>HOME</b></button></a> </b> </nav> 
             <nav> <b><a href="account.html"><button class="b"><b>ACCOUNT</b></button></a> </b></nav>
@@ -20,7 +22,11 @@
           </div>
         <header>
             <h1>PABLO <span>&</span> عبده</h1>
-            <h4> <q> <b> for delicious food </b></q></h4>
+            <h4> <q> <b> for delicious food 
+                <i style="font-size: 24px;" class="fa fa-heart"></i>
+            </b></q></h4>
+            <button class="button" > <a class="login" href="login.html">sign in
+            </a></button>
         </header>
         <hr> <br>
         <audio controls= autoplay>
@@ -58,8 +64,9 @@ try it now and order your first meal, you will not regret </textarea>
                     <li><a href="juice.html" target="_parent">Juice</a></li>
                 </ul> 
                 <br>
-            <li class="x"> <a class="x" href="login.html">Log in</a></li> 
-            <li class="x"> <a class="x" href="contact us.html">Contact us</a></li> 
+            <li class="x"> <a class="x" href="contact us.html">Contact us 
+                <i class="fa">&#xf095</i>
+            </a></li> 
             <li class="x"> <a class="x" href="Terms & Conditions.html">Terms&Conditions</li> 
             <li class="x"> <a class="x" href="policy privacy.html">Policy Privacy</li> 
                 <br> <br> <br> 
@@ -73,6 +80,6 @@ try it now and order your first meal, you will not regret </textarea>
         
         
     </footer>
-        
+        <script src="js/home.js"></script>
     </body>
 </html>

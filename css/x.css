@@ -58,6 +58,16 @@ header{
 span{
     color: rgb(181, 181, 208);
 }
+button{
+    background-color: #8e888876;
+}
+.login{ font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #bfddd3;
+    text-decoration: none;
+}
+audio{
+    width: 100%;
+}
 textarea{
     font-style: italic;
     color: white;
@@ -65,14 +75,14 @@ textarea{
     background-color: rgb(17, 6, 39);
 }
 h4{
-    color: rgb(207, 184, 184);
+    color: rgb(240, 245, 176);
 }
 p{
     font-size: 24px;
 }
 ol{
     position: absolute;
-    top: 1260px;
+    top: 1320px;
     right: 200px;
     text-decoration: underline;
     color: rgb(247, 134, 204);
@@ -86,8 +96,8 @@ a {
 }
  .first {
   position: absolute;
-  left: 1100px;
-  top: 1299px;
+  left: 1060px;
+  top: 1359px;
 }
 video {
     border-radius: 30%;
@@ -95,6 +105,7 @@ video {
 
 .res{
     border: 15px;
+    margin-top: 30px;
     border-style: dashed;
     border-color: aliceblue;
     margin-right: 100px;
@@ -110,6 +121,7 @@ pre {
 .sec {
     position: absolute;
     right: 890px;
+    top: 1400px;
     border: 15px;
     border-style: dashed;
     border-color: aliceblue;
@@ -119,7 +131,7 @@ pre {
 }
 .bf {
   position: absolute;
-  top: 1560px;
+  top: 1780px;
   right: 930px;
 }
 
@@ -139,3 +151,4 @@ footer {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     font-size: 20px;
     height: 57px;
 }
+
