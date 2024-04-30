@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-.nav{ width: 115%;
+.nav{ width: 100%;
     display: flex;
     position: sticky;
     align-items: center;
@@ -133,7 +133,7 @@ ul li {
 }
 
 .table{
-    margin-left: 1400px;
+    margin-left: 1500px;
 }
 
 .table h3 {
