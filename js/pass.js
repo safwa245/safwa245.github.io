@@ -14,3 +14,11 @@ x.addEventListener('click' , function() {
         img.src='../image/eye open.svg';
    }
 })
+function func(event){
+     event.preventDefault();
+     var name =document.getElementById("user").value;
+     var password =document.getElementById("pass").value;
+     localStorage.setItem('Username',name);
+     localStorage.setItem('pass',password);
+     window.location.href = "./index.html";
+}
