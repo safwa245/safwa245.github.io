@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bablo&Abdo - Menu</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="logo">
+          <h1>Bablo&Abdo</h1>
+        </div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <h2>Welcome to Bablo&Abdo</h2>
+        <p>Delicious meals to satisfy your cravings!</p>
+      </section>
+      <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="category">
+          <h3>appetizer</h3>
+          <div class="container">
+
+            <div class="menu-item card">
+              <img src="images/spring-rolls.jpg" alt="Spring Rolls" />
+              <div class="item-description">
+                <h4>Spring Rolls</h4>
+                <p>Crispy rolls filled with vegetables and served with dipping sauce.</p>
+              </div>
+              <div class="price-tag">$5.99</div>
+            </div>
+
+            <div class="menu-item card">
+              <img src="images/garlic-bread.jpg" alt="Garlic Bread">
+              <div class="item-description">
+                <h4>Garlic Bread</h4>
+                <p>Warm baguette slices with garlic butter.</p>
+                <div class="price-tag">$4.99</div>
+              </div>
+            </div>
+
+            <div class="menu-item card">
+              <img src="images/onion-rings.jpg" alt="Onion Rings">
+              <div class="item-description">
+                <h4>Onion Rings</h4>
+                <p>Golden-fried onion rings served with dipping sauce.</p>
+                <div class="price-tag">$6.99</div>
+              </div>
+            </div>
+
+            <div class="menu-item card">
+              <img src="images/mozzarella-sticks.jpg" alt="Mozzarella Sticks">
+              <div class="item-description">
+                <h4>Mozzarella Sticks</h4>
+                <p>Crispy mozzarella sticks with marinara sauce.</p>
+                <div class="price-tag">$7.99</div>
+              </div>
+            </div>
+
+        
+
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Bablo&Abdo</p>
+    </footer>
+  </body>
+</html>
